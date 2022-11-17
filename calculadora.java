@@ -11,9 +11,16 @@ public class calculadora {
         int n2 = teclado.nextInt();
 
         System.out.print("Operador > ");
-        String operador = teclado.nextLine();
+        String operador = teclado.next();
 
         switch (operador){
+
+            // Multiplicación
+            case "*":
+                int resultado = n1 * n2;
+                System.out.println(n1 + " * " + n2 + " = " + resultado);
+            break;
+            
             default:
                 System.out.println("No es un operador válido");
             break;
