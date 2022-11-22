@@ -19,6 +19,11 @@ public class calculadora {
             int resultadoResta = n1 - n2;
             System.out.println(n1 + " - " + n2 + " = " + resultadoResta);
             break;
+            // Suma
+            case "+":
+                int resultadoResta = n1 + n2;
+                System.out.println(n1 + " + " + n2 + " = " + resultadoResta);
+                break;
 
             default:
                 System.out.println("No es un operador válido");
